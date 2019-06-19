@@ -117,6 +117,21 @@
   <ItemGroup>
     <ClInclude Include="OS.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="command.cpp" />
+    <ClCompile Include="copy_paste.cpp" />
+    <ClCompile Include="create_delete_dir.cpp" />
+    <ClCompile Include="create_delete_file.cpp" />
+    <ClCompile Include="dir.cpp" />
+    <ClCompile Include="exit.cpp" />
+    <ClCompile Include="format.cpp" />
+    <ClCompile Include="freeblock.cpp" />
+    <ClCompile Include="init.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="read_write.cpp" />
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="user.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
